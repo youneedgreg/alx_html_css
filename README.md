@@ -1,1 +1,2 @@
-# alx_html_css
+alx assignment 2
+chachisha kutoka ngware ady giza
