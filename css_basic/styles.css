@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    color: #333333;
+    font-family: Arial, sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: #ffffff;
+  padding: 20px;
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #0066cc;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #0066cc;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
